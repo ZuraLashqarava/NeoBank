@@ -1,0 +1,731 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\transfertoownaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\transfertoownaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_T6ULI6D_SQLEXPRESS/OnlineBank/True/SqlTable/dbo.ExternalCards.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\security\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\security\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\buystockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\buystockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\virtualcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\virtualcardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\currencyconversiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\currencyconversiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\generalpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\generalpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\sellstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\sellstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\stockresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\stockresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\transactionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\transactionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\transfertopersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\transfertopersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\virtualcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\virtualcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\currencyconversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\currencyconversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\externalcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\externalcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\stocktransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\stocktransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\virtualcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\virtualcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\models\\walletbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\models\\walletbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\services\\restcountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\services\\restcountriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\services\\alphavantageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\services\\alphavantageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\services\\finnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\services\\finnhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|c:\\users\\user\\source\\repos\\onlinebankback\\onlinebankback\\migrations\\20260502154848_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D2330B5-FF12-40A6-B22C-21370E37DF21}|OnlineBankBack\\OnlineBankBack.csproj|solutionrelative:onlinebankback\\migrations\\20260502154848_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.ExternalCards [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_T6ULI6D_SQLEXPRESS/OnlineBank/True/SqlTable/dbo.ExternalCards.sql",
+              "ToolTip": "dbo.ExternalCards [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-03T07:58:16.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OnlineBankBack\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T07:29:42.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Security\\EmailSender.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Security\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Security\\EmailSender.cs",
+              "RelativeToolTip": "OnlineBankBack\\Security\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:29:25.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:29:10.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\CurrencyController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\CurrencyController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\CurrencyController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAhwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:29:03.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BuyStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\BuyStockDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\BuyStockDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\BuyStockDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\BuyStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:41:21.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\UserController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T09:00:49.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAQwPYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:05:07.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\StockController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAAwMkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:48:20.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\User.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:28:02.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAIwKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T11:50:01.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransferToOwnAccountDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\TransferToOwnAccountDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\TransferToOwnAccountDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\TransferToOwnAccountDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\TransferToOwnAccountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:21.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VirtualCardController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\VirtualCardController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\VirtualCardController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\VirtualCardController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\VirtualCardController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:28:37.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CurrencyConversionDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\CurrencyConversionDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\CurrencyConversionDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\CurrencyConversionDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\CurrencyConversionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:26.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Program.cs",
+              "RelativeToolTip": "OnlineBankBack\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T11:22:10.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineBankBack\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\appsettings.json",
+              "RelativeToolTip": "OnlineBankBack\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T16:22:25.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GeneralPaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\GeneralPaymentDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\GeneralPaymentDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\GeneralPaymentDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\GeneralPaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:18.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:35.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Data\\DataContext.cs",
+              "RelativeToolTip": "OnlineBankBack\\Data\\DataContext.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswBAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:45:15.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:36.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T12:01:18.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SellStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\SellStockDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\SellStockDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\SellStockDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\SellStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:41:52.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:45:00.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StockResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\StockResponseDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\StockResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\StockResponseDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\StockResponseDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:37.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TransactionResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\TransactionResponseDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\TransactionResponseDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\TransactionResponseDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\TransactionResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:19.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TransferToPersonDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\TransferToPersonDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\TransferToPersonDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\TransferToPersonDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\TransferToPersonDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:21.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "OnlineBankBack\\Controllers\\WalletController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T08:59:34.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VirtualCardDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\VirtualCardDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\VirtualCardDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\VirtualCardDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\VirtualCardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:23.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\WalletDto.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\DTOs\\WalletDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\DTOs\\WalletDto.cs",
+              "RelativeToolTip": "OnlineBankBack\\DTOs\\WalletDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:43:24.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CurrencyConversion.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\CurrencyConversion.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\CurrencyConversion.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\CurrencyConversion.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\CurrencyConversion.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:28:14.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExternalCard.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\ExternalCard.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\ExternalCard.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\ExternalCard.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\ExternalCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:35:43.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "StockTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\StockTransaction.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\StockTransaction.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\StockTransaction.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\StockTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:48:45.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\Portfolio.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\Portfolio.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\Portfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T15:48:58.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\Transaction.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:04:56.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VirtualCard.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\VirtualCard.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\VirtualCard.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\VirtualCard.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\VirtualCard.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T11:41:20.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\Wallet.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\Wallet.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T11:41:03.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WalletBalance.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\WalletBalance.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Models\\WalletBalance.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Models\\WalletBalance.cs",
+              "RelativeToolTip": "OnlineBankBack\\Models\\WalletBalance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T07:28:00.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RestCountriesService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Services\\RestCountriesService.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Services\\RestCountriesService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Services\\RestCountriesService.cs",
+              "RelativeToolTip": "OnlineBankBack\\Services\\RestCountriesService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T12:00:06.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AlphaVantageService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Services\\AlphaVantageService.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Services\\AlphaVantageService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Services\\AlphaVantageService.cs",
+              "RelativeToolTip": "OnlineBankBack\\Services\\AlphaVantageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T11:16:01.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FinnhubService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Services\\FinnhubService.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Services\\FinnhubService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Services\\FinnhubService.cs",
+              "RelativeToolTip": "OnlineBankBack\\Services\\FinnhubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T11:50:30.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20260502154848_initialcreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Migrations\\20260502154848_initialcreate.cs",
+              "RelativeDocumentMoniker": "OnlineBankBack\\Migrations\\20260502154848_initialcreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\OnlineBankBack\\OnlineBankBack\\Migrations\\20260502154848_initialcreate.cs",
+              "RelativeToolTip": "OnlineBankBack\\Migrations\\20260502154848_initialcreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T15:48:49.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

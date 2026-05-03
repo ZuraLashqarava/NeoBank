@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cinzel", serif;
+}
+ 
+html, body, #root {
+  min-height: 100%;
+}
+ 
+body {
+  background-color: #080c10;
+  background-image:
+    radial-gradient(ellipse at 10% 0%, rgb(3, 83, 54) 0%, transparent 60%),
+    radial-gradient(ellipse at 90% 100%, rgb(3, 83, 54) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 50%, rgb(2, 26, 17) 0%, transparent 70%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #e8f0ec;
+}
+ 

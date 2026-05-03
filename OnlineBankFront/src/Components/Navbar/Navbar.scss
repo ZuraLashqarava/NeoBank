@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+
+$green-primary:   #00e5a0;
+$green-mid:       #00c282;
+$green-glow:      rgba(0, 229, 160, 0.15);
+$green-glow-soft: rgba(0, 229, 160, 0.07);
+$border:          rgba(255, 255, 255, 0.07);
+$border-green:    rgba(0, 229, 160, 0.2);
+$surface-2:       #111820;
+$surface-3:       #18222e;
+$text-primary:    #e8f0ec;
+$text-secondary:  #6b8a7a;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #000000;
+  border-bottom: 1px solid $border;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+
+  &__brand {
+    
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: $text-primary;
+    cursor: pointer;
+    transition: color 0.2s;
+    white-space: nowrap;
+
+    &:hover {
+      color: $green-primary;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  &__link {
+    
+    font-size: 17px;
+    font-weight: 600;
+    color: $text-secondary;
+    text-decoration: none;
+    padding: 7px 16px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: color 0.2s, background 0.2s, border-color 0.2s;
+    letter-spacing: 0.2px;
+
+    &:hover {
+      color: $green-primary;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    &--active {
+      color: $green-primary;
+      background: $green-glow;
+      border-color: $border-green;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+  }
+
+  &__login-btn {
+    
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #061210;
+    background: $green-primary;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 24px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 2px 14px rgba(0, 229, 160, 0.25);
+
+    &:hover {
+      background: $green-mid;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 20px rgba(0, 229, 160, 0.35);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  &__account {
+    position: relative;
+  }
+
+  &__account-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: $surface-3;
+    border: 1px solid $border;
+    color: $text-secondary;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.2s, color 0.2s, background 0.2s, box-shadow 0.2s;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    &:hover,
+    &--open {
+      border-color: $border-green;
+      color: $green-primary;
+      background: $green-glow-soft;
+      box-shadow: 0 0 0 3px rgba(0, 229, 160, 0.08);
+    }
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    min-width: 180px;
+    background: $surface-2;
+    border: 1px solid $border;
+    border-radius: 12px;
+    padding: 6px;
+    box-shadow:
+      0 16px 40px rgba(0, 0, 0, 0.5),
+      0 0 0 1px rgba(0, 229, 160, 0.05);
+    animation: dropdownEnter 0.18s ease forwards;
+    z-index: 200;
+  }
+
+  &__dropdown-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    color: $text-secondary;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    text-align: left;
+
+    svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.04);
+      color: $text-primary;
+    }
+
+    &--danger {
+      color: #ff6b6b;
+
+      &:hover {
+        background: rgba(255, 107, 107, 0.08);
+        color: #ff6b6b;
+      }
+    }
+  }
+
+  &__dropdown-divider {
+    height: 1px;
+    background: $border;
+    margin: 4px 6px;
+  }
+}
+
+@keyframes dropdownEnter {
+  from { opacity: 0; transform: translateY(-6px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}

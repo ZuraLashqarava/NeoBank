@@ -1,0 +1,379 @@
+$green-primary:   #00e5a0;
+$green-mid:       #00c282;
+$green-glow:      rgba(0, 229, 160, 0.15);
+$green-glow-soft: rgba(0, 229, 160, 0.07);
+$border:          rgba(255, 255, 255, 0.07);
+$border-card:     rgba(255, 255, 255, 0.09);
+$text-primary:    #e8f0ec;
+$text-secondary:  #6b8a7a;
+$card-bg:         rgba(255, 255, 255, 0.04);
+$bg-page:         #080f0c;
+
+@mixin glass($opacity: 0.04) {
+  background: rgba(255, 255, 255, $opacity);
+  border: 1px solid $border-card;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.charity {
+  position: relative;
+  min-height: 100vh;
+  background: $bg-page;
+  color: $text-primary;
+  overflow-x: hidden;
+
+  &__ambient {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__header {
+    animation: charity-fade-up 0.5s ease both;
+  }
+
+  &__label {
+    font-size: 0.72rem;
+    color: $text-secondary;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin: 0 0 0.3rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    background: linear-gradient(135deg, $text-primary 40%, $green-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  &__section-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $text-secondary;
+    animation: charity-fade-up 0.5s 0.05s ease both;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    animation: charity-fade-up 0.5s 0.1s ease both;
+  }
+
+  &__card {
+    @include glass(0.04);
+    border-radius: 20px;
+    padding: 1.5rem 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    border: 1px solid $border-card;
+    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+
+    &:hover {
+      background: $green-glow-soft;
+      border-color: rgba(0, 229, 160, 0.22);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(0, 229, 160, 0.08);
+    }
+
+    &--active {
+      background: $green-glow;
+      border-color: rgba(0, 229, 160, 0.45);
+      box-shadow: 0 0 20px rgba(0, 229, 160, 0.12), inset 0 0 12px rgba(0, 229, 160, 0.06);
+
+      .charity__card-label {
+        color: $green-primary;
+      }
+    }
+  }
+
+  &__card-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: rgba(0, 229, 160, 0.06);
+    border: 1px solid rgba(0, 229, 160, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  &__card-icon {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+  }
+
+  &__card-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: $text-secondary;
+    letter-spacing: 0.04em;
+    text-align: center;
+    line-height: 1.3;
+    transition: color 0.2s;
+  }
+
+  &__panel {
+    @include glass(0.05);
+    border-radius: 24px;
+    overflow: hidden;
+    animation: charity-slide-in 0.3s ease both;
+  }
+
+  &__panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid $border;
+  }
+
+  &__panel-title {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: $text-primary;
+    letter-spacing: 0.03em;
+  }
+
+  &__panel-close {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    border: 1px solid $border-card;
+    background: $card-bg;
+    color: $text-secondary;
+    font-size: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+
+    &:hover {
+      background: rgba(255, 123, 123, 0.1);
+      color: #ff7b7b;
+      border-color: rgba(255, 123, 123, 0.3);
+    }
+  }
+
+  &__panel-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__field-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: $text-secondary;
+    letter-spacing: 0.06em;
+  }
+
+  &__input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid $border-card;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    color: $text-primary;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    font-family: inherit;
+
+    &::placeholder {
+      color: rgba(107, 138, 122, 0.5);
+    }
+
+    &:focus {
+      border-color: rgba(0, 229, 160, 0.4);
+      box-shadow: 0 0 0 3px rgba(0, 229, 160, 0.07);
+    }
+
+    &--pin {
+      letter-spacing: 0.3em;
+      font-size: 1.1rem;
+      max-width: 140px;
+    }
+
+    &--amount {
+      padding-left: 2.2rem;
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+    }
+  }
+
+  &__amount-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__currency {
+    position: absolute;
+    left: 1rem;
+    font-size: 0.9rem;
+    color: $text-secondary;
+    pointer-events: none;
+  }
+
+  &__msg {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+
+    &--error {
+      background: rgba(255, 123, 123, 0.08);
+      border: 1px solid rgba(255, 123, 123, 0.25);
+      color: #ff7b7b;
+    }
+
+    &--success {
+      background: $green-glow;
+      border: 1px solid rgba(0, 229, 160, 0.3);
+      color: $green-primary;
+    }
+  }
+
+  &__submit {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 14px;
+    border: none;
+    background: linear-gradient(135deg, $green-primary, $green-mid);
+    color: #050e09;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+
+    &:hover:not(:disabled) {
+      opacity: 0.9;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(0, 229, 160, 0.2);
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.charity-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.35;
+
+  &--1 {
+    width: 420px;
+    height: 420px;
+    background: radial-gradient(circle, rgba(0, 229, 160, 0.22), transparent 70%);
+    top: -100px;
+    right: -100px;
+    animation: charity-drift 14s ease-in-out infinite alternate;
+  }
+
+  &--2 {
+    width: 260px;
+    height: 260px;
+    background: radial-gradient(circle, rgba(0, 194, 130, 0.16), transparent 70%);
+    bottom: 20%;
+    left: -60px;
+    animation: charity-drift 18s ease-in-out infinite alternate-reverse;
+  }
+}
+
+.charity__spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(0, 229, 160, 0.25);
+  border-top-color: $green-primary;
+  border-radius: 50%;
+  animation: charity-spin 0.7s linear infinite;
+  display: inline-block;
+  flex-shrink: 0;
+
+  &--btn {
+    border-color: rgba(5, 14, 9, 0.3);
+    border-top-color: #050e09;
+  }
+}
+
+@keyframes charity-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes charity-slide-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes charity-drift {
+  from { transform: translate(0, 0) scale(1); }
+  to   { transform: translate(20px, 15px) scale(1.05); }
+}
+
+@keyframes charity-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 600px) {
+  .charity__inner {
+    padding: 1.5rem 1rem 4rem;
+  }
+
+  .charity__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .charity__input--pin {
+    max-width: 100%;
+  }
+}
